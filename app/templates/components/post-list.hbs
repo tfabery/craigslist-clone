@@ -1,0 +1,10 @@
+<p>
+  {{#each posts as |post|}}
+    <time datetime={{post.createdAt}}>{{moment-format post.createdAt}}</time>
+    <span>
+      {{#link-to 'post' post.id}}
+        {{post.postTitle}}
+      {{/link-to}}
+    </span>
+  {{/each}}
+</p>

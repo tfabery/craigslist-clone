@@ -1,1 +1,34 @@
-{{outlet}}
+<div class="wrapper">
+  <section id="pagecontainer">
+    <nav>
+      <h2>portland, OR</h2>
+      <a class="wikilink" href="http://en.wikipedia.org/wiki/Portland%2COR">w</a>
+      <ul class="sublinks">
+        <li><a href="/mlt/" title="multnomah co">mlt</a></li>
+        <li><a href="/wsc/" title="washington co">wsc</a></li>
+        <li><a href="/clk/" title="clark/cowlitz">clk</a></li>
+        <li><a href="/clc/" title="clackamas co">clc</a></li>
+        <li><a href="/nco/" title="north coast">nco</a></li>
+        <li><a href="/yam/" title="yamhill co">yam</a></li>
+        <li><a href="/grg/" title="columbia gorge">grg</a></li>
+      </ul>
+    </nav>
+    <div id="leftbar">
+      <div id="logo">
+        <a href="/">craigslist</a>
+      </div>
+      <ul id="postlks">
+        <li>post to classifieds</li>
+        <li><a href="/">my account</a></li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<div class="center">
+  {{#each model.categories as |category|}}
+  <div class={{category.name}}>
+    <h4 class="ban">{{#link-to 'category' category.id}}{{category.name}}{{/link-to}}</h4>
+  </div>
+  {{/each}}
+</div>

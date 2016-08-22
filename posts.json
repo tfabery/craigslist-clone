@@ -1,0 +1,91 @@
+{
+  "posts":[{
+    "author": "tony",
+    "email": "tony@log.com",
+    "category": "0",
+    "postTitle": "Places to go for lunch",
+    "postBody": "Where are some good places to get lunch from?",
+    "createdAt": "2016-08-22 14:44"
+    },
+    {
+      "author": "patrick",
+      "email": "patrick@log.com",
+      "category": "1",
+      "postTitle": "Rants please",
+      "postBody": "Why is it so hot in this place?",
+      "createdAt": "2016-07-22 14:44"
+    },
+    {
+      "author": "sam",
+      "email": "sam@log.com",
+      "category": "2",
+      "postTitle": "This craigslist sucks",
+      "postBody": "why can't i see more specific categories?",
+      "createdAt": "2016-06-22 14:44"
+    },
+    {
+      "author": "sky",
+      "email": "sky@log.com",
+      "category": "3",
+      "postTitle": "1br, 1ba, full kitchen basement",
+      "postBody": "Renting out my basement. It has 1 beedroom and 1.5 bathroom and a fully equiped kitchen.",
+      "createdAt": "2016-05-22 14:44"
+    },
+    {
+      "author": "august",
+      "email": "august@log.com",
+      "category": "4",
+      "postTitle": "sports sailboat",
+      "postBody": "Are you looking for a project of your own? you are in luck this sailboat is exactly what you are looking for!",
+      "createdAt": "2016-04-22 14:44"
+    },
+    {
+      "author": "maldon",
+      "email": "maldon@log.com",
+      "category": "5",
+      "postTitle": "Learn how to dance",
+      "postBody": "You will be the best dancer ever!!!",
+      "createdAt": "2016-03-22 14:44"
+    },
+    {
+      "author": "noah",
+      "email": "noah@log.com",
+      "category": "6",
+      "postTitle": "Looking for an editor",
+      "postBody": "I'm looking for an editor who can talk to Raheem",
+      "createdAt": "2016-02-22 14:44"
+    },
+    {
+      "author": "wolfgang",
+      "email": "wolfgang@log.com",
+      "category": "7",
+      "postTitle": "Concert at an old church building",
+      "postBody": "come listen to us play.",
+      "createdAt": "2016-01-22 14:44"
+    }],
+
+  "categories": [{
+      "name": "community"
+    },
+    {
+      "name": "personals"
+    },
+    {
+      "name": "forum"
+    },
+    {
+      "name": "housing"
+    },
+    {
+      "name": "sale"
+    },
+    {
+      "name": "sevice"
+    },
+    {
+      "name": "job"
+    },
+    {
+      "name": "gig"
+    }]
+}
